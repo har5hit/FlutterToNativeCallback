@@ -1,6 +1,5 @@
 include ':app'
 setBinding(new Binding([gradle: this]))
 evaluate(new File(
-  settingsDir.parentFile,
   'web_view_module/.android/include_flutter.groovy'
 ))
